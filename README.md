@@ -19,7 +19,7 @@
 </h1>
 
 <p align="center">
-  <i align="center">Demonstrates a swiftpm <b>dependency graph</b> issue where<br/> subsequent swift compiler invocations <b>rebuilds all source</b>, without proper <b>change detection</b>.</i>
+  <i align="center">Fails to demonstrate a swiftpm <b>dependency graph</b> issue where<br/> subsequent swift compiler invocations <b>rebuilds all source</b>, without proper <b>change detection</b>.</i>
 </p>
 
 </div>
