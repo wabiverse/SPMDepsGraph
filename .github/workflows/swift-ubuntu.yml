@@ -17,3 +17,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: 📦 Build
         run: cd SPMDepsGraph && swift build
+      - name: 📦 Build Again (Detect Dependency Graph Changes)
+        run: cd SPMDepsGraph && swift build
